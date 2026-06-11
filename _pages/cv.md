@@ -11,7 +11,7 @@ redirect_from:
 
 My academic documents are available for download here:
 
-<a href="/files/CV_Sarthak.pdf" class="btn btn--info btn--large" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download CV (PDF)</a> &nbsp; &nbsp; <a href="/files/Transcript_Sarthak_Sose26.pdf" class="btn btn--info btn--large" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Transcript (PDF)</a>
+<a href="/files/CV_Sarthak.pdf" class="btn-cv-download" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download CV (PDF)</a> &nbsp; &nbsp; <a href="/files/Transcript_Sarthak_Sose26.pdf" class="btn-transcript-download" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Transcript (PDF)</a>
 
 ---
 

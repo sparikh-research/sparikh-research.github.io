@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 /*
  * This file controls what is imported from /_sass
  *
@@ -41,3 +43,96 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ==========================================================================
+   CUSTOM PREMIUM OVERRIDES
+   ========================================================================== */
+
+body {
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Remove underlines from buttons inside page content */
+.page__content a.btn-cv-download,
+.page__content a.btn-transcript-download {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* Premium gradient button for CV download */
+.btn-cv-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 24px;
+  margin: 10px 12px 10px 0;
+  border-radius: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #0ea1c5 0%, #158da8 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 4px 12px rgba(14, 161, 197, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none !important;
+  cursor: pointer;
+  
+  &:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #12b4dc 0%, #1c9cb9 100%);
+    box-shadow: 0 6px 18px rgba(14, 161, 197, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(14, 161, 197, 0.2);
+  }
+
+  i {
+    font-size: 16px;
+  }
+}
+
+/* Premium gradient button for Transcript download */
+.btn-transcript-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 24px;
+  margin: 10px 12px 10px 0;
+  border-radius: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none !important;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #34495e 0%, #415b76 100%);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    color: #ffffff !important;
+    text-decoration: none !important;
+  }
+
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  i {
+    font-size: 16px;
+  }
+}
