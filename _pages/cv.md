@@ -16,10 +16,10 @@ My academic documents are available for download here:
 ---
 
 ## Research Focus & Interests
+* **AI for Science:** Protein prediction, algorithmic bioinformatics.
 * **Representation Learning:** Joint-Embedding Predictive Architectures (JEPA), Self-Supervised Learning, Distillation.
-* **Mechanistic Interpretability:** Internal representation probing, latent alignments, activation steering.
+* **Mechanistic Interpretability:** Probing internal representations, latent alignments, and activation steering.
 * **Mathematical Foundations of ML:** Information geometry, learning theory, generalization dynamics.
 * **Formal Verification:** Interactive theorem proving with Lean 4.
-* **AI for Science:** Protein prediction, algorithmic bioinformatics.
 
 

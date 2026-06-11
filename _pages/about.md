@@ -24,5 +24,5 @@ I am an MSc Computer Science student at **Ludwig Maximilian University of Munich
 
 ### Active Research
 * **Research Assistant (Hiwi) — ML for Binary Analysis (LMU Munich):**
-  * *Representation Learning:* Designed a cross-modal JEPA mapping compiled assembly code to control flow graphs, and distilled a 1.3B LLM into a 6× smaller target encoder.
-  * *Interpretability:* Analyzed cross-modal attention mechanisms and verified local control flow structural preservation in latent space.
+  * *Representation Learning:* Cross-modal JEPA mapping compiled assembly code to control flow graphs, and LLM distillation (1.3B to 220M parameter encoder).
+  * *Interpretability:* Probing attention mechanisms and analyzing control flow structural preservation in latent space.
