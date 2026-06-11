@@ -23,10 +23,10 @@ repository               : "sparikh-research/sparikh-research.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Photo.png"
   name             : "Sarthak Parikh"
   pronouns         : # example: "she/her"  
-  bio              : "MSc Computer Science student at LMU Munich specializing in AI4Science, Interpretability, and the Mathematics of AI."
+  bio              : "MSc Computer Science student at LMU Munich focusing on AI4Science and Representation Learning."
   location         : "Munich, Germany"
   employer         : "Ludwig Maximilian University of Munich"
   uri              : "https://research-study-red.vercel.app"
